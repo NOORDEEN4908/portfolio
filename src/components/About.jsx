@@ -59,7 +59,7 @@ const About = () => {
   
 
 
-    Hi, I’m NoorDeen — a full-stack web developer skilled in React, PHP, Java, Node.js, MySQL, MongoDB, and WordPress. With a 6-month professional internship and several hands-on projects, I build scalable, user-friendly web apps from frontend to backend. I'm a quick learner and collaborate closely with clients to deliver real-world solutions. Let’s work together to bring your ideas to life!
+  Hi, I’m NoorDeen  a full-stack web developer experienced in building scalable, production ready web applications using Next.js, React, Node.js, PHP, Java, PostgreSQL, MySQL, MongoDB, and WordPress. I have hands-on industry experience working across frontend and backend systems, developing secure APIs, database driven features, and user-focused interfaces. I adapt quickly, follow best practices, and work closely with teams to deliver reliable solutions that meet business requirements.
   </motion.p>
 
   {/* Right side: Tilted Image */}

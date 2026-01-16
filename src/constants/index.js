@@ -40,6 +40,10 @@ phamacy ,
  icbt,
   tripguide,
   threejs,
+  Garrison,
+  nextjs,
+  postgresql,
+  qgis,
  
 
     php,
@@ -93,14 +97,12 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
+ 
+/*   {
     name: "CSS 3",
     icon: css,
-  },
+  }, */
+ 
   {
     name: "JavaScript",
     icon: javascript,
@@ -131,12 +133,20 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Next.Js",
+    icon: nextjs,
   },
   {
     name: "bootstrap",
@@ -146,6 +156,11 @@ const technologies = [
     name: "mySqli",
     icon: mySqli,
   },
+  {
+    name: "PostgresSQL",
+    icon: postgresql,
+  },
+ 
 ];
 
 const experiences = [
@@ -163,6 +178,36 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Assisted with instrumentation tasks such as equipment installation, calibration, and troubleshooting.",
       "Collaborated with developers to implement features, fix bugs, and optimize performance across web applications.",
+    ],
+  },
+  {
+    title: "Intern Web Developer",
+  
+    company_name: "Garrison Research (Private) Limited",
+    icon: Garrison,
+    iconBg: "#E6DEDD",
+    date: "February 2025 - June 2025",
+    points: [
+      "Assisted in the development and maintenance of internal and client web applications.",
+      "Supported both frontend and backend tasks as part of a growing full-stack workflow.",
+      "Helped troubleshoot technical issues and improve system reliability.",
+      "Participated in requirement discussions, feature implementation, and testing activities.",
+      "Learned and adapted quickly to new frameworks, tools, and development practices.",
+      "Built a strong foundation in teamwork, code quality, and professional software delivery.",
+    ],
+  },
+  {
+    title: "Junior Web Developer",
+    company_name: "Garrison Research (Private) Limited",
+    icon: Garrison,
+    iconBg: "#E6DEDD",
+    date: "July 2025 - January 2026",
+    points: [
+      "Took ownership of full-stack development tasks for internal and client-facing web applications.",
+      "Built and enhanced frontend interfaces while supporting backend logic and integrations.",
+      "Debugged and resolved production issues to maintain application stability and performance.",
+      "Maintained high coding standards, professionalism, and accountability across all tasks.",
+      
     ],
   },
 
