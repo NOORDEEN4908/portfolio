@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mypic from "./profile.png"
-
+import arrowUp from './upright.png'
 
 
 import css from "./tech/css.png";
@@ -37,6 +37,8 @@ import fect from"./company/fect.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import agency from"./agency.png";
+import furniture from"./furniture.png";
 
 import move from "./move.webp";
 import fooddei from "./fooddei.webp";
@@ -65,6 +67,7 @@ export {
   logo,
   backend,
   php,
+  arrowUp,
 
   wordpress,
   java,
@@ -113,4 +116,6 @@ agre,
   icbt,
   jobit,
   tripguide,
+  agency,
+  furniture
 };

@@ -40,12 +40,15 @@ phamacy ,
  icbt,
   tripguide,
   threejs,
+ 
 
     php,
 
   wordpress,
   java,
   mySqli,
+  furniture,
+  agency,
 } from "../assets";
 
 export const navLinks = [
@@ -498,9 +501,9 @@ const projects = [
     source_code_link: "https://github.com/NOORDEEN4908/Eduvalt-landingpage.git",
   },
  {
-    name: "Eduvalt – Landing Page",
+    name: "WordPress WooCommerce Furniture Store",
     description:
-      "A modern, responsive WordPress landing page for Eduvalt, showcasing online courses with engaging design and clear calls-to-action to convert visitors into students effectively.",
+      "Built a modern WooCommerce store using WordPress, enhanced with LiteSpeed Cache for speed, performance, and smooth user experience.",
     tags: [
        {
         name: "WordPres",
@@ -510,9 +513,33 @@ const projects = [
         name: "Elementor",
         color: "green-text-gradient",
       },
+      {
+        name: "WooCommerce",
+        color: "white-text-gradient",
+      },
+
     ],
-    image: Blog,
-    source_code_link: "https://github.com/NOORDEEN4908/Eduvalt-landingpage.git",
+    image: furniture,
+    website_link: "https://noordeen.hstn.me/",
+  },
+  {
+    name: "LumiAgency",
+    description:
+      "A modern, responsive agency landing page built with React JSX featuring a sleek light/dark mode toggle for enhanced user experience. The page showcases the agency’s services, portfolio, and contact sections, optimized for smooth transitions and interactive UI elements. Designed with a clean layout and intuitive navigation, it demonstrates proficiency in React components, state management, and dynamic styling..",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: agency,
+    website_link: "https://noordeen.hstn.me/",
   },
 
 ];
