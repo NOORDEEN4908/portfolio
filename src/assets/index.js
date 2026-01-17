@@ -7,9 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mypic from "./profile.png"
+import arrowUp from './upright.png'
 
-
-
+import qgis from "./tech/qgis.png";
+import postgresql from "./tech/PostgresSQL.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -23,7 +24,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/Nextjs.png";
 
+
+import Garrison from'./company/Garrison.png'
 import asoka from "./company/asoka.png";
 import britsh from "./company/britsh.png";
 import madina from "./company/madina.png"
@@ -37,6 +41,8 @@ import fect from"./company/fect.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import agency from"./agency.png";
+import furniture from"./furniture.png";
 
 import move from "./move.webp";
 import fooddei from "./fooddei.webp";
@@ -64,8 +70,12 @@ import mySqli from "./tech/mySqli.png";
 export {
   logo,
   backend,
+  postgresql,
   php,
-
+  nextjs,
+  qgis,
+  arrowUp,
+  Garrison,
   wordpress,
   java,
   mySqli,
@@ -113,4 +123,6 @@ agre,
   icbt,
   jobit,
   tripguide,
+  agency,
+  furniture
 };

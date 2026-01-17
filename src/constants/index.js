@@ -498,6 +498,23 @@ const projects = [
     image: Blog,
     source_code_link: "https://github.com/NOORDEEN4908/Eduvalt-landingpage.git",
   },
+   {
+    name: "Eduvalt – Landing Page",
+    description:
+      "A modern, responsive WordPress landing page for Eduvalt, showcasing online courses with engaging design and clear calls-to-action to convert visitors into students effectively.",
+    tags: [
+       {
+        name: "WordPres",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Blog,
+    source_code_link: "https://github.com/NOORDEEN4908/Eduvalt-landingpage.git",
+  },
 
 ];
 
