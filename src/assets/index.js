@@ -63,6 +63,11 @@ import wordpress from "./tech/wordpress.png";
 import java from "./tech/java.png";
 import mySqli from "./tech/mySqli.png";
 
+import gradison from "./company/Garrison.png"
+
+
+import suryala from "./suryala.png"
+import syntrixal from './syntrixal.png'
 
 
 
@@ -70,6 +75,11 @@ import mySqli from "./tech/mySqli.png";
 export {
   logo,
   backend,
+  suryala,
+syntrixal,
+  gradison,
+agency,
+furniture,
   postgresql,
   php,
   nextjs,
@@ -123,6 +133,6 @@ agre,
   icbt,
   jobit,
   tripguide,
-  agency,
-  furniture
+ 
+
 };

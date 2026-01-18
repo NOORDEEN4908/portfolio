@@ -3,6 +3,10 @@ import {
   backend,
   creator,
   web,
+   
+agency,
+furniture,
+  postgresql,
   javascript,
   typescript,
   html,
@@ -46,6 +50,8 @@ phamacy ,
   wordpress,
   java,
   mySqli,
+  suryala,
+  gradison,
 } from "../assets";
 
 export const navLinks = [
@@ -163,6 +169,39 @@ const experiences = [
       "Collaborated with developers to implement features, fix bugs, and optimize performance across web applications.",
     ],
   },
+
+  {
+    title: "Web Developer Intern",
+    company_name: " Garrison Research (Pvt) Ltd",
+    icon: gradison,
+    iconBg: "#E6DEDD",
+    date: "Feb 2025 – Jun 2025",
+    points: [
+      "Supported the development and maintenance of internal and client-facing web applications.",
+      "Assisted in implementing new features and improving existing system functionality.",
+      "Participated in debugging, testing, and resolving application level issues.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with senior developers and cross-functional teams to meet project deadlines.",
+      "Gained hands-on exposure to real-world production environments and development workflows. ",
+    ],
+  },
+   {
+    title: "Junior Web Developer ",
+    company_name: " Garrison Research (Pvt) Ltd",
+    icon: gradison,
+    iconBg: "#E6DEDD",
+    date: "Jul 2025 – Jan 2026",
+    points: [
+      "Developed and maintained production web applications for internal and client use.",
+      "Implemented system enhancements to improve performance, usability, and stability.",
+      "Independently managed assigned tasks, resolving application issues efficiently.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with senior developers and cross-functional teams to meet project deadlines.",
+      "GPromoted from Web Developer Intern to Junior Web Developer for consistent performance and strong contribution.",
+    ],
+  },
+
+
 
 ];
 
@@ -501,7 +540,7 @@ const projects = [
    {
     name: "Eduvalt – Landing Page",
     description:
-      "A modern, responsive WordPress landing page for Eduvalt, showcasing online courses with engaging design and clear calls-to-action to convert visitors into students effectively.",
+      "Designed and developed a fully functional WordPress-based eCommerce website for a local furniture shop to extend their physical showroom into an online sales platform. The website enables customers to browse, evaluate, and purchase furniture products online while maintaining strong brand consistency with the offline store.",
     tags: [
        {
         name: "WordPres",
@@ -511,10 +550,55 @@ const projects = [
         name: "Elementor",
         color: "green-text-gradient",
       },
+      {
+        name: "WooCommerce",
+        color: "white-text-gradient",
+      },
+
+
     ],
-    image: Blog,
-    source_code_link: "https://github.com/NOORDEEN4908/Eduvalt-landingpage.git",
+    image: furniture,
+    source_code_link: "https://noordeen.hstn.me/",
   },
+   {
+    name: "Agency Landing Page",
+    description:
+      "A modern agency landing page developed using React.js and Tailwind CSS. Features reusable component architecture, responsive layout, and optimized UI/UX. Includes a light and dark mode toggle for improved accessibility and user preference, with clean typography, structured sections, and performance-focused front-end implementation.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: agency,
+    source_code_link: "https://github.com/NOORDEEN4908/Anime-website.git",
+  },
+{
+    name: "Surya Lagoon Village",
+    description:
+      "Surya Lagoon Village is a professionally designed WordPress site built to present a boutique villa property located in Nilaveli, Sri Lanka. The goal was to create a visually engaging, high-performance hospitality website that highlights the property’s unique features  private beach access, lush garden views, comfortable accommodation, and local activities while enabling easy visitor interaction and conversions",
+    tags: [
+       {
+        name: "WordPres",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+      
+
+    ],
+    image: suryala,
+    source_code_link: "https://suryalagoonvillage.com/",
+  },
+
+
+
 
 ];
 
